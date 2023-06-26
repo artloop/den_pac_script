@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
  if (isPlainHostName(host) || dnsDomainIs(host, 'chaturbate.com'))
     return 'PROXY 116.203.197.143:49573'
- if (isPlainHostName(host) || dnsDomainIs(host, '.xlovecam.com'))
+ if (isPlainHostName(host) || dnsDomainIs(host, 'xlovecam.com'))
     return 'PROXY 116.203.197.143:49573'
  if (isPlainHostName(host) || dnsDomainIs(host, 'highwebmedia.com'))
     return 'PROXY 116.203.197.143:49573'
