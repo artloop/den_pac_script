@@ -9,6 +9,8 @@ function FindProxyForURL(url, host) {
     return 'PROXY 116.203.197.143:49573'
  if (isPlainHostName(host) || dnsDomainIs(host, 'camsoda.com')) 
     return 'PROXY 116.203.197.143:49573'
+ if (isPlainHostName(host) || dnsDomainIs(host, 'cam4.com')) 
+    return 'PROXY 116.203.197.143:49573'
   if (isPlainHostName(host) || dnsDomainIs(host, 'streamatemodels.com')) 
     return 'PROXY 116.203.197.143:49573'
  else 
